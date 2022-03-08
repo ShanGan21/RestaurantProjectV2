@@ -1,0 +1,23 @@
+{
+  "name": "restaurantprojectv2",
+  "version": "1.0.0",
+  "description": "README File Name: Shantha Ganapathy",
+  "main": "client.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShanGan21/RestaurantProjectV2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShanGan21/RestaurantProjectV2/issues"
+  },
+  "homepage": "https://github.com/ShanGan21/RestaurantProjectV2#readme",
+  "dependencies": {
+    "pug": "^3.0.2"
+  }
+}

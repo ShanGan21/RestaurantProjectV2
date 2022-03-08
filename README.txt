@@ -9,7 +9,7 @@ called total price, which can keep track of how the total amount a restaurant is
 visual appeal for the pages. 
 
 How to Run Server 
-node init to create package.json
+npm init to create package.json
 npm install pug to include node_modules
 
 
