@@ -1,0 +1,32 @@
+html
+ head
+   style.
+     table {
+     font-family: arial, sans-serif;
+     border-collapse: collapse;
+     width: 100%;
+     }
+     td, th {
+     border: 1px solid #dddddd;
+     text-align: left;
+     padding: 8px;
+     }
+ body
+   include ../partials/header
+   h2 Welcome to Restaurant Statistics
+   table
+     tr
+       th Restaurant Name
+       th Number of Orders
+       th Avg. Order
+       th Popular Item
+       th Total Cost of Orders
+     each val in orders
+       tr 
+         td #{val[0]}
+         td #{val[1]}
+         td #{val[2]}
+         td #{val[3]}
+         td #{val[4]}
+   include ../partials/footer
+   
